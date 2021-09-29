@@ -7,4 +7,4 @@ function main() {
   console.log(resultado);
 }
 
-main();
+main():
