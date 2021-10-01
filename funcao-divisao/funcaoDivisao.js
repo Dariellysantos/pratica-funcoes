@@ -4,7 +4,7 @@ function divisao(x, y) {
 }
 
 function main() {
-  let resultado = divisao(10, 5);
+  let resultado = divisao(10, -5);
   console.log(resultado);
 }
 
