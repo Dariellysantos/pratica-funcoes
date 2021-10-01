@@ -1,3 +1,3 @@
-#Funções Javascript
+# Funções Javascript
 
-Repositório utilizado para praticar funções em javascript
+Repositório utilizado para praticar funcoes em javascript
