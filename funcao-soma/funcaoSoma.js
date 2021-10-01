@@ -2,4 +2,8 @@ function soma(x, y) {
   const z = x + y;
   return z;
 }
-console.log(soma(1, 1));
+function main() {
+  let resultado = soma(7, 9);
+  console.log(resultado);
+}
+main();
