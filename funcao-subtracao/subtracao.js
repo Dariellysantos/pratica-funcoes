@@ -5,5 +5,8 @@ function subtracao(x, y) {
 
 function main() {
   let resultado = subtracao(4, 6);
+
   console.log(resultado);
 }
+
+main();
