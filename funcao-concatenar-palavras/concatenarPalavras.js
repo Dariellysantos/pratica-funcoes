@@ -6,11 +6,11 @@ function concatenarPalavras(x, y) {
     return Error("A string recebida é inválida: " + y);
   }
 
-  return x + y;
+  return x.trim() + " " + y.trim();
 }
 
 function main() {
-  let resultado = concatenarPalavras("Olá", "mundo!");
+  let resultado = concatenarPalavras("Olá   ", "     mundo!");
   return console.log(resultado);
 }
 
