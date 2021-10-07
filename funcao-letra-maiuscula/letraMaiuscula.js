@@ -1,4 +1,4 @@
-function caixaAlta(palavraMinuscula) {
+function transformarCaixaDaPalavra(palavraMinuscula) {
   palavraMinuscula = palavraMinuscula.trim();
 
   if (palavraMinuscula == "") {
@@ -12,7 +12,7 @@ function caixaAlta(palavraMinuscula) {
 }
 
 function main() {
-  let resultado = caixaAlta(" ");
+  let resultado = transformarCaixaDaPalavra(" ");
   return console.log(resultado);
 }
 
