@@ -5,10 +5,10 @@ function removerPalavraDaFrase(frase, palavraARemover) {
   if (palavraARemover == "") {
     return Error("A palavra a ser encontrada é inválida: vazia");
   }
-  if (frase == isNaN) {
+  if (typeof frase !== "string") {
     return Error("A frase recebida é inválida: um número!");
   }
-  if (palavraARemover == isNaN) {
+  if (typeof palavraARemover !== "string") {
     return Error("A palavra a ser encontrada é inválida: um número");
   }
 
@@ -23,10 +23,7 @@ function removerPalavraDaFrase(frase, palavraARemover) {
 }
 
 function main() {
-  let resultado = removerPalavraDaFrase(
-    "Batatinha quando nasce se esparama pelo chão",
-    "quando"
-  );
+  let resultado = removerPalavraDaFrase(4, "quando");
 
   return console.log(resultado);
 }
