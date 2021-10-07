@@ -15,7 +15,7 @@ function removerPalavraDaFrase(frase, palavraARemover) {
   let listaFrase = frase.split(" ");
   let indiceDaPlavra = listaFrase.indexOf(palavraARemover);
   if (indiceDaPlavra < 0) {
-    return Error("A palavra a ser removida é inválida: vazia");
+    return Error(" A frase recebida não contém a palavra: " + palavraARemover);
   }
 
   listaFrase.splice(indiceDaPlavra, 1);
@@ -23,7 +23,10 @@ function removerPalavraDaFrase(frase, palavraARemover) {
 }
 
 function main() {
-  let resultado = removerPalavraDaFrase(4, "quando");
+  let resultado = removerPalavraDaFrase(
+    "Batatinha quando nasce se esparama pelo chão",
+    "quando"
+  );
 
   return console.log(resultado);
 }
