@@ -28,6 +28,6 @@ function main() {
     "quando"
   );
 
-  return console.log(resultado);
+  console.log(resultado);
 }
 main();
