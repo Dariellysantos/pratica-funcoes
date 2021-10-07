@@ -1,4 +1,4 @@
-function caixaAlta(palavraMaiuscula) {
+function transformarCaixaDaPalavra(palavraMaiuscula) {
   palavraMaiuscula = palavraMaiuscula.trim();
 
   if (palavraMaiuscula == "") {
@@ -12,7 +12,7 @@ function caixaAlta(palavraMaiuscula) {
 }
 
 function main() {
-  let resultado = caixaAlta("DARIELLY");
+  let resultado = transformarCaixaDaPalavra("DARIELLY");
   return console.log(resultado);
 }
 
