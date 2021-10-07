@@ -13,7 +13,7 @@ function transformarCaixaDaPalavra(palavraMinuscula) {
 
 function main() {
   let resultado = transformarCaixaDaPalavra("darielly");
-  return console.log(resultado);
+  console.log(resultado);
 }
 
 main();
